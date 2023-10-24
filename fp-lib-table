@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/libs/BME280")(options "")(descr ""))
   (lib (name "ESP32-S3-WROOM-N8R8")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP32-S3-WROOM-N8R8")(options "")(descr ""))
+  (lib (name "G5V")(type "KiCad")(uri "${KIPRJMOD}/libs/G5V")(options "")(descr ""))
+  (lib (name "JZC-32FC")(type "KiCad")(uri "${KIPRJMOD}/libs/JZC-32F/JZC-32FC.pretty")(options "")(descr ""))
 )
