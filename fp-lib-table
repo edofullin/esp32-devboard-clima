@@ -5,4 +5,5 @@
   (lib (name "G5V")(type "KiCad")(uri "${KIPRJMOD}/libs/G5V")(options "")(descr ""))
   (lib (name "JZC-32FC")(type "KiCad")(uri "${KIPRJMOD}/libs/JZC-32F/JZC-32FC.pretty")(options "")(descr ""))
   (lib (name "USBC-31M12")(type "KiCad")(uri "${KIPRJMOD}/libs/USBC-31M12")(options "")(descr ""))
+  (lib (name "XYEK500-5.08-3P")(type "KiCad")(uri "${KIPRJMOD}/libs/XYEK500-508-3P/XYEK500-5.08-3P.pretty")(options "")(descr ""))
 )
