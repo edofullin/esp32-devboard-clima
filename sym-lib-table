@@ -5,4 +5,5 @@
   (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/libs/USBC-31M12/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
   (lib (name "G5V-2-DC5")(type "KiCad")(uri "${KIPRJMOD}/libs/G5V/G5V-2-DC5.kicad_sym")(options "")(descr ""))
   (lib (name "JZC-32F")(type "KiCad")(uri "${KIPRJMOD}/libs/JZC-32F/JZC-32F.kicad_sym")(options "")(descr ""))
+  (lib (name "HFD2")(type "KiCad")(uri "${KIPRJMOD}/libs/HFD2/HFD2.kicad_sym")(options "")(descr ""))
 )
