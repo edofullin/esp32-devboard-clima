@@ -521,6 +521,18 @@
       {
         "netclass": "Digital",
         "pattern": "*USB*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SCK"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SDA1"
       }
     ]
   },

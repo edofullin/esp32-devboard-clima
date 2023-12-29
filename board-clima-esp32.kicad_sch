@@ -3442,7 +3442,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0163d758-ce5a-4390-96cd-5b5ebf6cab43)
   )
-  (label "GPIO4" (at 300.99 33.02 0) (fields_autoplaced)
+  (label "GPIO5" (at 300.99 33.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02cba763-1de8-432c-9d2e-03c5b9d3d536)
   )
@@ -3470,7 +3470,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 21560bc1-9b17-4ed8-ad41-4d97a9814a9a)
   )
-  (label "SCK" (at 300.99 27.94 0) (fields_autoplaced)
+  (label "SDA" (at 300.99 27.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 21c7c70c-3cc3-43cb-8392-9efe43f24693)
   )
@@ -3510,7 +3510,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5d8a982f-8ff7-49d1-acaa-2f4fb4d0dce8)
   )
-  (label "SDA" (at 300.99 30.48 0) (fields_autoplaced)
+  (label "SCK" (at 300.99 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f9c4a84-90c1-47f5-b1ae-b781183728d0)
   )
@@ -3550,7 +3550,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 89dddcce-8968-415e-b92f-d16fc64b8a36)
   )
-  (label "GPIO5" (at 300.99 35.56 0) (fields_autoplaced)
+  (label "GPIO4" (at 300.99 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8bfd6283-a8d3-4def-9749-4195a8c4a205)
   )
@@ -3705,16 +3705,16 @@
     (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/660910/HONGFA/HFD2SLASH005-S-L2-D.html" (at 93.98 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "9" (uuid e47c7537-5472-4818-81f4-b0990eb12975))
-    (pin "11" (uuid 71486b02-0abe-4323-97a7-d00ef808e782))
     (pin "1" (uuid 17f4bfa0-f81d-4570-acd4-3a4888d37b91))
-    (pin "6" (uuid 2d6efa7f-e473-460a-893e-aa932fd03763))
+    (pin "11" (uuid 71486b02-0abe-4323-97a7-d00ef808e782))
     (pin "13" (uuid fde386a0-56d4-4421-af92-2eca80b3dc7e))
+    (pin "15" (uuid 0e8e1334-27e0-4300-a794-d34dfe02c49c))
+    (pin "16" (uuid bc264a9c-ce12-410d-a470-657f6da81c7b))
     (pin "2" (uuid b2a70584-a887-40b4-ab30-804d458f62f0))
     (pin "4" (uuid 34997ec0-8a59-42f0-901a-bbec01518f3b))
-    (pin "16" (uuid bc264a9c-ce12-410d-a470-657f6da81c7b))
-    (pin "15" (uuid 0e8e1334-27e0-4300-a794-d34dfe02c49c))
+    (pin "6" (uuid 2d6efa7f-e473-460a-893e-aa932fd03763))
     (pin "8" (uuid 9b828fd3-0513-4aff-83f2-f41a8422fb40))
+    (pin "9" (uuid e47c7537-5472-4818-81f4-b0990eb12975))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -3899,8 +3899,8 @@
     (property "Datasheet" "~" (at 222.25 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid defa73fd-65b2-438f-afc2-713acb630140))
     (pin "1" (uuid f36a2194-a291-41c8-8c03-a855a5e6f247))
+    (pin "2" (uuid defa73fd-65b2-438f-afc2-713acb630140))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4121,8 +4121,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 76.2 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d875745c-2e9d-4b2f-8e4e-544a6721234b))
     (pin "1" (uuid d9fdb04d-702f-4104-ae08-eb52894ed9a7))
+    (pin "2" (uuid d875745c-2e9d-4b2f-8e4e-544a6721234b))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4229,8 +4229,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 72.39 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ce6ea453-b813-4b52-9ec1-dbe110edeab7))
     (pin "1" (uuid 0688d74c-03bd-4e12-a851-44b2b8e36d38))
+    (pin "2" (uuid ce6ea453-b813-4b52-9ec1-dbe110edeab7))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4283,8 +4283,8 @@
     )
     (pin "1" (uuid 7a058530-10ed-4566-998a-307c7fa6cbc4))
     (pin "2" (uuid 9a210cbc-31d3-45c3-9e0d-97157d987212))
-    (pin "4" (uuid d38f3353-66c5-476d-8b8a-fd4fccbdefad))
     (pin "3" (uuid 7f4d38a9-84cd-4292-afdd-4581eb0b5312))
+    (pin "4" (uuid d38f3353-66c5-476d-8b8a-fd4fccbdefad))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4702,8 +4702,8 @@
     (property "Datasheet" "~" (at 209.55 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9bc47ac5-ea69-4951-a1d2-b00a430f82f0))
     (pin "1" (uuid 848152b2-e19c-4aba-8ca6-db1de5f597f0))
+    (pin "2" (uuid 9bc47ac5-ea69-4951-a1d2-b00a430f82f0))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4728,8 +4728,8 @@
     (property "Datasheet" "~" (at 193.04 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 40187a0e-2c87-4dff-ab4d-26a99600f94d))
     (pin "1" (uuid 722db8e5-4532-4262-a55e-cabadc733089))
+    (pin "2" (uuid 40187a0e-2c87-4dff-ab4d-26a99600f94d))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -4911,8 +4911,8 @@
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" (at 90.17 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "2" (uuid 177366bd-8bed-4152-852b-9e5d22d6b770))
     (pin "1" (uuid c97c717a-84a3-48e5-9e63-f4b4eb1abbb2))
+    (pin "2" (uuid 177366bd-8bed-4152-852b-9e5d22d6b770))
     (pin "3" (uuid aff1b7f6-8041-4a8e-a9f9-c7c6d019c199))
     (instances
       (project "board-clima-esp32"
@@ -4995,8 +4995,8 @@
     (property "Datasheet" "~" (at 203.2 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid dd4b0556-89b0-48df-88cb-c05d00736168))
     (pin "1" (uuid a8294fe1-9d23-4312-853d-919b843d49a4))
+    (pin "2" (uuid dd4b0556-89b0-48df-88cb-c05d00736168))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -5160,9 +5160,9 @@
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" (at 200.66 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid d5cab457-f30e-41d1-afac-58afb61f5277))
-    (pin "2" (uuid 595c0b97-fe56-4665-9f8e-a02529a867da))
     (pin "1" (uuid 2d90f69f-7642-4846-8fd3-a78e0963e19e))
+    (pin "2" (uuid 595c0b97-fe56-4665-9f8e-a02529a867da))
+    (pin "3" (uuid d5cab457-f30e-41d1-afac-58afb61f5277))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -5590,8 +5590,8 @@
     (property "Datasheet" "~" (at 247.65 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 71d950ba-45cb-4e99-b7ed-71f053f65a4f))
     (pin "1" (uuid f045d352-bef0-4d81-926b-1364bda1902e))
+    (pin "2" (uuid 71d950ba-45cb-4e99-b7ed-71f053f65a4f))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -5650,8 +5650,8 @@
     )
     (pin "1" (uuid af7f862b-9e56-46cc-a282-48f75d92356d))
     (pin "2" (uuid 7b1a174b-d2ed-4f90-86f2-190c6b6306b9))
-    (pin "4" (uuid 02c00e04-f31a-46d1-83e2-6a178056bb4f))
     (pin "3" (uuid b9ce4542-6311-4d15-96bf-cb99fe30d9c2))
+    (pin "4" (uuid 02c00e04-f31a-46d1-83e2-6a178056bb4f))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -5729,8 +5729,8 @@
     (property "Datasheet" "~" (at 194.31 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 830bc7bd-72f8-4b76-a8ee-4717e53f8681))
     (pin "1" (uuid 969a9cd0-bd80-4368-a100-831379358d42))
+    (pin "2" (uuid 830bc7bd-72f8-4b76-a8ee-4717e53f8681))
     (instances
       (project "board-clima-esp32"
         (path "/ec184202-d4fa-4f1f-9fe7-c32d14dd4c20"
@@ -6033,8 +6033,8 @@
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" (at 55.88 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "2" (uuid 3596d3b4-f66b-41fc-943c-cb601ed4a256))
     (pin "1" (uuid 80fc0519-98df-4f89-b285-0374ba9d3a5b))
+    (pin "2" (uuid 3596d3b4-f66b-41fc-943c-cb601ed4a256))
     (pin "3" (uuid 917412d1-9820-4c74-9868-1d31df75135f))
     (instances
       (project "board-clima-esp32"
