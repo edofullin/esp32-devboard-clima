@@ -13,9 +13,11 @@ Optionally, a BME280 sensor can be soldered onto the board in order to measure t
 
 ![alt](docs/img/pcb_rev2.png)
 
-## Final Result (OpenTherm version)
+## Final Result (OpenTherm version, no BME280)
 
 ![alt](docs/img/physical.png)
+
+Mounted by me by hand, imperfect but functioning. 
 
 ## Disclaimers
 
